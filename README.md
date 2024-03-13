@@ -16,3 +16,5 @@ Where:
 * TZD = time zone designator (“Z” for GMT or +hh:mm or -hh:mm)
 
 It is not necessary to perform semantic validation of the data-time value. In other words, the date-time value "9999-02-31T12:34:56+12:34" should be considered valid by your program even though February 31, 9999 is not a legitimate date.
+
+`python unique_datetime.py` to run. Input should be stored on same level as script as `input.txt`. Once ran, the script will generate `output.txt` same level.
