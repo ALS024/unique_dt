@@ -20,12 +20,12 @@ def main():
     output_file = 'output.txt'
 
     datetime_values = read_datetime_values(input_file)
-    print(datetime_values)
-    print(is_valid_datetime)
+    #print(datetime_values)
+    #print(is_valid_datetime)
     valid_datetime_values = [dt for dt in datetime_values if is_valid_datetime(dt)]
-    print(valid_datetime_values)
+    #print(valid_datetime_values)
     write_unique_datetime_values(valid_datetime_values, output_file)
-    print(write_unique_datetime_values)
+    #print(write_unique_datetime_values)
 
 if __name__ == "__main__":
     main()
